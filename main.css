@@ -63,6 +63,7 @@ button {
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .about h1 {
@@ -365,6 +366,13 @@ footer {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
 
 
